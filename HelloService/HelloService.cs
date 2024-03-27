@@ -13,6 +13,7 @@ namespace HelloService
 
         public string GetMessage(string msg)
         {
+            Console.WriteLine("Read Message Service: " + msg);
             return "Message:" + msg;
         }
     }
