@@ -3,5 +3,12 @@
 ################################################################################
 
 /.vs
-/WCFServiceLib/obj
-/WCFServiceLib/bin
+
+/ClientApp/obj
+/ClientApp/bin
+
+/HelloService/obj
+/HelloService/bin
+
+/HostPintService/obj
+/HostPintService/bin

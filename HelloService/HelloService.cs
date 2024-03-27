@@ -5,14 +5,15 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
 
-namespace WCFServiceLib
+namespace HelloService
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "Service1" in both code and config file together.
-    public class GreetingService : IGreetingService
+    public class HelloService : IHelloService
     {
-        public string GetGreeting(string name)
+
+        public string GetMessage(string msg)
         {
-            return $"Hello, {name}! Welcome to the WCF named pipe example.";
+            return "Message:" + msg;
         }
     }
 }

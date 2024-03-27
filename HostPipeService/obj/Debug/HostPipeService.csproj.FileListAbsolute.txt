@@ -1,0 +1,10 @@
+D:\DMSWorkspace\WCFExample\HostPipeService\bin\Debug\HostPipeService.exe.config
+D:\DMSWorkspace\WCFExample\HostPipeService\bin\Debug\HostPipeService.exe
+D:\DMSWorkspace\WCFExample\HostPipeService\bin\Debug\HostPipeService.pdb
+D:\DMSWorkspace\WCFExample\HostPipeService\bin\Debug\HelloService.dll
+D:\DMSWorkspace\WCFExample\HostPipeService\bin\Debug\HelloService.pdb
+D:\DMSWorkspace\WCFExample\HostPipeService\obj\Debug\HostPipeService.csproj.AssemblyReference.cache
+D:\DMSWorkspace\WCFExample\HostPipeService\obj\Debug\HostPipeService.csproj.CoreCompileInputs.cache
+D:\DMSWorkspace\WCFExample\HostPipeService\obj\Debug\HostPipe.5A5D1D0B.Up2Date
+D:\DMSWorkspace\WCFExample\HostPipeService\obj\Debug\HostPipeService.exe
+D:\DMSWorkspace\WCFExample\HostPipeService\obj\Debug\HostPipeService.pdb
