@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloService", "HelloServic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostPipeService", "HostPipeService\HostPipeService.csproj", "{E11C2370-7DE3-47AC-BD3B-C6FDAD998FBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostService", "HostService\HostService.csproj", "{B93864B4-00AC-45C3-9FEF-5197F8C8C084}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E11C2370-7DE3-47AC-BD3B-C6FDAD998FBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E11C2370-7DE3-47AC-BD3B-C6FDAD998FBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E11C2370-7DE3-47AC-BD3B-C6FDAD998FBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B93864B4-00AC-45C3-9FEF-5197F8C8C084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B93864B4-00AC-45C3-9FEF-5197F8C8C084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B93864B4-00AC-45C3-9FEF-5197F8C8C084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B93864B4-00AC-45C3-9FEF-5197F8C8C084}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
