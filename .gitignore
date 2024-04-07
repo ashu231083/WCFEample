@@ -15,3 +15,12 @@
 
 /HostService/obj
 /HostService/bin
+/ClientDataAccess/bin
+/ClientDataAccess/obj
+/ConsoleClientApp/bin
+/ConsoleClientApp/obj
+/HelloClientService/bin
+/HelloClientService/obj
+/HelperClasses/bin
+/HelperClasses/obj
+/packages
