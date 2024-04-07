@@ -26,7 +26,7 @@ namespace ClientApp
         private static void ProcessMessage(string userInput)
         {
             // Define the URI of the service
-            Uri serviceUri = new Uri("net.pipe://localhost/ashish/HelloService");
+            Uri serviceUri = new Uri("net.pipe://localhost/ashish/");
 
             // Create a ChannelFactory to create a channel to the service
             ChannelFactory<IHelloService> channelFactory = new ChannelFactory<IHelloService>(
@@ -40,7 +40,7 @@ namespace ClientApp
             try
             {
                 // Call a method on the service
-                string result = channel.GetMessage(userInput);
+                string result = channel.TestMessage(userInput);
                 Console.WriteLine("Result from service: " + result);
             }
             catch (Exception ex)

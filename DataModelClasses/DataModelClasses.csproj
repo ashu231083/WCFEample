@@ -4,15 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3ABE97E3-7F1D-45FC-8E3B-5B1596E70DEF}</ProjectGuid>
+    <ProjectGuid>{50C6C14C-E6DF-4307-8AED-C864F06873E5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HelloService</RootNamespace>
-    <AssemblyName>HelloService</AssemblyName>
+    <RootNamespace>DataModelClasses</RootNamespace>
+    <AssemblyName>DataModelClasses</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
-    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -34,8 +33,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Runtime.Serialization" />
-    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,19 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IHelloService.cs" />
+    <Compile Include="AuthenticateRequest.cs" />
+    <Compile Include="AuthenticateResponse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="HelloService.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DataModelClasses\DataModelClasses.csproj">
-      <Project>{50C6C14C-E6DF-4307-8AED-C864F06873E5}</Project>
-      <Name>DataModelClasses</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\HelperClasses\HelperClasses.csproj">
-      <Project>{6C921C57-EE24-493C-86E4-5AD2E77A8E6A}</Project>
-      <Name>HelperClasses</Name>
-    </ProjectReference>
+    <Compile Include="UserData.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
